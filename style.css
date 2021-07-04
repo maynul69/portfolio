@@ -6,8 +6,9 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
-section{
+.flex{
     display: flex;
+    margin-bottom: 150px;
 }
 .welcome{
     width: 50%;
@@ -38,8 +39,9 @@ h1{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 }
-section{
+.flex{
     display: flex;
+    margin-bottom: 150px;
 }
 .dream{
     width: 50%;
@@ -69,4 +71,27 @@ h1{
     background-image: linear-gradient(to right, rgb(224, 173, 77), tomato);
     padding: 20px 80px;
     border-radius: 5px;
+}
+.exphalf{
+    width: 35%;
+    height: 300px;
+    box-shadow: 10px 10px 30px  rgba(128, 128, 128, 0.493);
+    padding: 15px 15px;
+}
+.clr{
+    color: tomato;
+}
+.expflex{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 150px;
+    
+}
+.experience{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position:left ;
+}
+#sctick1{
+    border-image: linear-gradiant(tomato orange) ;
 }
