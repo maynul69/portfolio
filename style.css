@@ -77,6 +77,8 @@ h1{
     height: 300px;
     box-shadow: 10px 10px 30px  rgba(128, 128, 128, 0.493);
     padding: 15px 15px;
+    
+    
 }
 .clr{
     color: tomato;
@@ -93,5 +95,15 @@ h1{
     background-position:left ;
 }
 #sctick1{
-    border-image: linear-gradiant(tomato orange) ;
+    border-left: 7px solid;
+    border-image: linear-gradient( tomato, orange);
+    border-image-slice: 1;
+}
+#sctick2{
+    border-left: 7px solid;
+    border-image: linear-gradient( darkblue , skyblue );
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
